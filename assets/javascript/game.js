@@ -72,7 +72,7 @@ document.onkeyup = function (event) {
             didItMatch = 0;
             if (randomWord === document.getElementById("randomcities").innerHTML.toLowerCase()) {
                 alert("you won!!!");
-                resetGame();
+                setTimeout( resetGame, 1000);               
             }
         }
         else {
